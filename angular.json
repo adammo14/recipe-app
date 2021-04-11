@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/FontAwesome/css/all.min.css",
+              "node_modules/mdb-ui-kit/css/mdb.min.css"
             ],
-            "scripts": []
+            "scripts": [
+                "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+                "src/assets/FontAwesome/js/all.min.js",
+                "node_modules/mdb-ui-kit/js/mdb.min.js"
+            ]
           },
           "configurations": {
             "production": {
